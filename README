@@ -1,0 +1,26 @@
+           ___   ________  ________           _     
+          / _ \ /  ___|  \/  |_   _|         | |    
+         / /_\ \\ `--.| .  . | | | ___   ___ | |___ 
+         |  _  | `--. \ |\/| | | |/ _ \ / _ \| / __|
+         | | | |/\__/ / |  | | | | (_) | (_) | \__ \
+         \_| |_/\____/\_|  |_/ \_/\___/ \___/|_|___/
+
+     Recreating linux commands in pure assembly x86-64
+
+   This repository focuses on Linux programming using assembly x86-64.
+I made this project to strengthen my understanding of assembly and linux.
+
+------------------------- [ RESOURCES ] -------------------------
+
+In case you do not know where I am getting those numbers from, I recommend checking these websites:
+
+- Linux syscall table:
+  https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86_64-64_bit
+
+- Linux manual page:
+  https://man7.org/linux/man-pages/
+
+------------------------------------------------------------------
+
+ If you are curious why this does not have a modern-looking README file, it's because
+assembly is a low-level, old programming language, and I wanted to convey that feeling.
