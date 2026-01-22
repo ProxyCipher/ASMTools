@@ -2,7 +2,7 @@ section .text
 
 global _start
 _start:
-    CMP rsp, 2
+    CMP [rsp], 2
     JL missing_arguments
 
     MOV rax, 2
